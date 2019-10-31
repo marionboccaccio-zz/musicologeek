@@ -177,12 +177,6 @@ li {
     transition: all 0.4s ease 0s;
 }
 
-/* #gif {}
-
-#gif.active {
-    width: 30%;
-} */
-
 .win {
     color: green;
 }
