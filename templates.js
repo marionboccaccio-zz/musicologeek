@@ -33,7 +33,7 @@ const step2A = function(question, src, answers, score) {
 <div id="question">
     <img class="img" src="${src}"/>
     <p id="text">${question}</p>
-    <div id="gif1"></div>
+    <div id="gif1"></div> 
     <div id="gif2"></div>
 
 <ul class="list">

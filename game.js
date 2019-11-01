@@ -1,6 +1,6 @@
-import templates from "./templates.js";
-import questions from "./questions.js";
-import chrono from "./chrono.js";
+import templates from "./templates";
+import questions from "./questions";
+import chrono from "./chrono";
 
 const questionsCopy = [...questions]; // keep copy of all questions
 
