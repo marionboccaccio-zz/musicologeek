@@ -124,7 +124,7 @@ const questions = [
     src: "/tricks/shell.png",
     answers: [
       { text: "Mollusc", correct: true },
-      { text: "Brass", correct: true },
+      { text: "Brass", correct: false},
       { text: "Crustacean", correct: false }
     ]
   },
@@ -251,9 +251,9 @@ const questions = [
     mode: "audio",
     src: "/tricks/star.mp3",
     answers: [
-      { text: "Shooting star", correct: false },
+      { text: "Shooting star", correct: true },
       { text: "Ringo Starr", correct: false },
-      { text: "JoeyStarr", correct: true }
+      { text: "JoeyStarr", correct: false }
     ]
   }
 ];

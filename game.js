@@ -66,6 +66,8 @@ function setPlayRound() {
 
   function checkAnswer(evt) {
     console.log(evt.target.textContent === resp.text);
+    console.log(evt.target.textContent);
+    console.log(resp.text);
     clearInterval(intervalId);
     if (evt.target.textContent === resp.text) {
       console.log("bonnerep");

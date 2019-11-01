@@ -11,6 +11,8 @@ body {
     background-image: url(/instruments/partition1.png);
     background-repeat: no-repeat;
     background-position: right 50% bottom;
+    min-height: 100%;
+    width: 100%;
 }
 
 
@@ -57,7 +59,7 @@ header {
     flex-direction: column;
     justify-content: center;
     margin-top: 2Opx;
-    margin-left: 20px;
+    margin-left: 65px;
     margin-right: 2Opx;
     margin-bottom: 200;
     width: 90%;

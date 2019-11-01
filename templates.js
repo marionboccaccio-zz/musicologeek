@@ -38,7 +38,7 @@ const step2A = function(question, src, answers, score) {
 
 <ul class="list">
 
-  <li><button class="btn">${answers[0].text} </button> </li>
+  <li><button class="btn">${answers[0].text}</button> </li>
   <li><button class="btn">${answers[1].text}</button></li>
   <li><button class="btn">${answers[2].text}</button></li>
 </ul>
