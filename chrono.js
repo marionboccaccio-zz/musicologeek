@@ -12,6 +12,6 @@ export default function startChrono(cb1, cb2) {
     time--;
     // seconds remaining until next minute mark
   };
-  let intervalId = setInterval(countdown, 1000);
+  let intervalId = setInterval(countdown, 10000);
   return intervalId;
 }
