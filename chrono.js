@@ -1,5 +1,5 @@
 export default function startChrono(cb1, cb2) {
-  let time = 0;
+  let time = 10000;
 
   const countdown = () => {
     if (time === 0) {
