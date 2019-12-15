@@ -79,7 +79,7 @@ function setPlayRound() {
         '<p class="loose"> Oops !!</p>';
     setTimeout(function() {
       setPlayRound();
-    }, 1500);
+    }, 10000);
   }
 
   answerBtns.forEach(btn => {

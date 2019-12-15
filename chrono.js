@@ -1,10 +1,10 @@
 export default function startChrono(cb1, cb2) {
-  let time = 10000;
+  let time = 10;
 
   const countdown = () => {
     if (time === 0) {
       clearInterval(intervalId);
-      time = 10000;
+      time = 10;
       cb1();
       return;
     }
@@ -12,6 +12,6 @@ export default function startChrono(cb1, cb2) {
     time--;
     // seconds remaining until next minute mark
   };
-  let intervalId = setInterval(countdown, 10000);
+  let intervalId = setInterval(countdown, 1000);
   return intervalId;
 }
