@@ -4,7 +4,7 @@ export default function startChrono(cb1, cb2) {
   const countdown = () => {
     if (time === 0) {
       clearInterval(intervalId);
-      time = 0;
+      time = 10000;
       cb1();
       return;
     }
