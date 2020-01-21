@@ -4,13 +4,13 @@ export default function startChrono(cb1, cb2) {
   const countdown = () => {
     if (time === 0) {
       clearInterval(intervalId);
-      time = 10;
+      time = 0;
       cb1();
       return;
     }
     cb2(time);
     time--;
-    // seconds remaining until next 
+    // seconds remaining until next
   };
   let intervalId = setInterval(countdown, 1000);
   return intervalId;
